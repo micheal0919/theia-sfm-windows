@@ -64,7 +64,7 @@ bool FileExists(const std::string& filename);
 bool DirectoryExists(const std::string& directory);
 
 // Creates the given directory.
-bool CreateDirectory(const std::string& directory);
+bool CreateDirectory_Theia(const std::string& directory);
 
 }  // namespace theia
 

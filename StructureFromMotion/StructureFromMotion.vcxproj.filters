@@ -40,7 +40,6 @@
     <ClCompile Include="theia\matching\cascade_hasher.cc" />
     <ClCompile Include="theia\matching\cascade_hashing_feature_matcher.cc" />
     <ClCompile Include="theia\matching\create_feature_matcher.cc" />
-    <ClCompile Include="theia\matching\distance_test.cc" />
     <ClCompile Include="theia\matching\feature_matcher_utils.cc" />
     <ClCompile Include="theia\math\matrix\sparse_cholesky_llt.cc" />
     <ClCompile Include="theia\math\probability\sequential_probability_ratio.cc" />
@@ -89,7 +88,6 @@
     <ClCompile Include="theia\sfm\pose\fundamental_matrix_util.cc" />
     <ClCompile Include="theia\sfm\pose\perspective_three_point.cc" />
     <ClCompile Include="theia\sfm\pose\seven_point_fundamental_matrix.cc" />
-    <ClCompile Include="theia\sfm\pose\seven_point_fundamental_matrix_test.cc" />
     <ClCompile Include="theia\sfm\pose\sim_transform_partial_rotation.cc" />
     <ClCompile Include="theia\sfm\pose\test_util.cc" />
     <ClCompile Include="theia\sfm\pose\three_point_relative_pose_partial_rotation.cc" />

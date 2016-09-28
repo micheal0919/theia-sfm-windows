@@ -59,7 +59,6 @@
     <ClCompile Include="theia\matching\cascade_hasher.cc" />
     <ClCompile Include="theia\matching\cascade_hashing_feature_matcher.cc" />
     <ClCompile Include="theia\matching\create_feature_matcher.cc" />
-    <ClCompile Include="theia\matching\distance_test.cc" />
     <ClCompile Include="theia\matching\feature_matcher_utils.cc" />
     <ClCompile Include="theia\math\closed_form_polynomial_solver.cc" />
     <ClCompile Include="theia\math\find_polynomial_roots_companion_matrix.cc" />
@@ -123,7 +122,6 @@
     <ClCompile Include="theia\sfm\pose\fundamental_matrix_util.cc" />
     <ClCompile Include="theia\sfm\pose\perspective_three_point.cc" />
     <ClCompile Include="theia\sfm\pose\seven_point_fundamental_matrix.cc" />
-    <ClCompile Include="theia\sfm\pose\seven_point_fundamental_matrix_test.cc" />
     <ClCompile Include="theia\sfm\pose\sim_transform_partial_rotation.cc" />
     <ClCompile Include="theia\sfm\pose\test_util.cc" />
     <ClCompile Include="theia\sfm\pose\three_point_relative_pose_partial_rotation.cc" />
@@ -568,7 +566,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>..\3rdParties\gflags;..\3rdParties\glog;..\3rdParties\ceres;..\3rdParties\suitesparse\lib64;../3rdParties/suitesparse/lib64/lapack_blas_windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libgflags.lib;libglog.lib;shlwapi.lib;ceres_static.lib;libamd.lib;libbtf.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libcxsparse.lib;libklu.lib;libldl.lib;libspqr.lib;libumfpack.lib;metis.lib;suitesparseconfig.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libgflags.lib;libglog.lib;shlwapi.lib;ceres_static.lib;libblas.lib;liblapack.lib;libamd.lib;libbtf.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libcxsparse.lib;libklu.lib;libldl.lib;libspqr.lib;libumfpack.lib;metis.lib;suitesparseconfig.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -322,9 +322,9 @@ defined(__DOXYGEN__)
 #    endif
 #  else
 #    ifdef __cplusplus
-#      define VL_EXPORT extern "C" __declspec(dllimport)
+#      define VL_EXPORT extern "C" 
 #    else
-#      define VL_EXPORT extern __declspec(dllimport)
+#      define VL_EXPORT extern 
 #    endif
 #  endif
 #endif
